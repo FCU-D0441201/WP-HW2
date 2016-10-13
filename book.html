@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>圖書館借書系統</title>
+<body>
+<caption><strong>圖書館借書系統</strong></caption>
+<form action = "action_page.php">
+    <p>
+	<label><strong>書名:</strong>
+	    <input name = "bookName" type = "text" size = "25"></lable>
+    </p>
+
+    <p>
+	<label><strong>姓名:</strong>
+	    <input name = "userName" type = "text" size = "25"></lable>
+    </p>
+
+    <p>
+	<strong>性別:</strong>
+	<lable>男
+	    <input name = "gender" type = "checkbox" value = "male"></lable>
+	<lable>女
+	    <input name = "gender" type = "checkbox" value = "female"></lable>
+    </p>
+
+    <p>
+	<lable><strong>學系:</strong>
+	    <select name = "rating">
+	    <option selected>	</option>
+	    <option>資工</option>
+	    <option>電機</option>
+	    <option>通訊</option></select>
+	</lable>
+    </p>
+    <p>
+	<input type = "submit" value = "借書">
+	<input type = "reset" value = "重設">
+    </p>
+</form>
+
+</body>
+</html>
